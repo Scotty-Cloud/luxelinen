@@ -1,45 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-</head>
-<body>
-    <div class="loginform">
-        <h1>LOGIN</h1>
-        <h3>Please enter your email and password</h3>
-        <form action="">
-            <label for="first">
-                Email:
-            </label>
-            <input type="text"
-                   id="first"
-                   name="first"
-                   placeholder="Enter your email" required>
-                   
-            <label for="password">
-                Password:
-            </label>       
-            <input type="password"
-            id="password"
-            name="password"
-            placeholder="Enter your Password" required>
-          
-            <label for="remember">
-                Remember Me:
-            </label>
-            <input type="checkbox"
-            id="rememberme"
-            name="rememberme"
-            placeholder="remember me" required>
-     <div class="wrap">
-         <button type="submit"
-                 onclick="solve()">
-             Submit
-         </button>
-     </div>
-        </form>
-    </div>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="container"></header>
+    <main class="container mt-5 ">
+      <div class="row">
+        <div class="col-md">
+          <div class="card">
+            <h5 class="card-header">Welcome</h5>
+            <div class="card-body">
+              <form action="">
+                <label for="first">Email:</label>
+    
+                <input
+                  type="text"
+                  id="first"
+                  name="first"
+                  placeholder="Enter your email"
+                  required
+                />
+    
+                <label for="password">Password:</label>
+    
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Enter your Password"
+                  required
+                />
+    
+                <label for="remember">Remember Me:</label>
+    
+                <input
+                  type="checkbox"
+                  id="rememberme"
+                  name="rememberme"
+                  placeholder="remember me"
+                  required
+                />
+                <div class="wrap">
+                  <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      
+    </footer>
+  </body>
 </html>
