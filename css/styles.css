@@ -6,7 +6,7 @@ footer {
 
 .firstParagraph {
   text-align: end;
-  margin-top: .5%;
+  margin-top: 3%;
   margin-right: 58.5rem;
 }
 
@@ -15,7 +15,7 @@ footer {
   margin-top: 0%;
   margin-right: 12%;
 }
- 
-li {
+
+.mylist {
   margin-left: 55%;
 }
