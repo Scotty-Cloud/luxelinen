@@ -1,10 +1,20 @@
+/* .subparagraph {
+  font-family: Helvetica,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  text-transform: none;
+  color: #080808;
+  line-height: 1.6em;
+} */
+
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
-.firstParagraph {
+/* .firstParagraph {
   text-align: end;
   margin-top: 3%;
   margin-right: 58.5rem;
@@ -18,4 +28,4 @@ footer {
 
 .mylist {
   margin-left: 55%;
-}
+} */
