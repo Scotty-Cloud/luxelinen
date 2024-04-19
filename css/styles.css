@@ -7,9 +7,13 @@
   color: #080808;
   line-height: 1.6em;
 } */
+ul li {
+  list-style-type: none;
+}
 
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
 }
+
