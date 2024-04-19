@@ -3,7 +3,7 @@
 
 A cozy and luxurious Ecommerce site built to offer you the most comfortable throw blankets ever!
 
-Click here to visit [LuxeLinen]() 
+Click here to visit [LuxeLinen](https://luxelinen.netlify.app/) 
 
 -------------------------------------------
 
